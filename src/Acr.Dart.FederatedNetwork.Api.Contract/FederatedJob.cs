@@ -18,6 +18,9 @@ namespace Acr.Dart.FederatedNetwork.Api.Contract
         [JsonProperty("userId")]
         public string UserId { get; set; }
 
+        [JsonProperty("datasetPublicId")]
+        public string DatasetPublicId { get; set; }
+
         [JsonProperty("status")]
         public FederatedJobStatus Status { get; set; }
 
